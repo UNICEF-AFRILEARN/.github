@@ -27,7 +27,7 @@
     </a>
 </p>
 
-Some children learn best by watching videos, some by reading class notes, some by solving practice problems, and some by social collaboration. Beyond blending storytelling, social learning, and supplementary tech skills content, Afrilearn leverages artificial intelligence to give every child access to personalized learning using the unique method that works best for them. This can be solved using AI recommendation systems. The recommender system provides course recommendations based on user history and similar profiles.
+Some children learn best by watching videos, some by reading class notes, some by solving practice problems, and some by social collaboration. Beyond blending storytelling, social learning, and supplementary tech skills content, Afrilearn leverages artificial intelligence to give every child access to personalized learning using the unique method that works best for them. This can be solved using AI recommendation systems. The recommender system provides course recommendations based on user history and similar profiles. A more detailed documentation is available [here](https://github.com/UNICEF-AFRILEARN/question_recommendation/blob/main/docs/Recommender%20System%20Development%20946729cc1a9c43ca80c4251c151d195a.pdf). 
 
 This repo is deployed as a web app and api through Heroku [here](https://unicef-afrilearn-app.herokuapp.com/).
 
