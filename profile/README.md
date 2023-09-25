@@ -35,20 +35,15 @@ This repo is deployed as a web app and api through Heroku [here](https://unicef-
 ## Installation
 Clone this repository. Navigate to the repository and create a python virtual environment through your method of choosing. Activate the environment and install the required libraries through
 ```
-git clone https://github.com/Afrilearn/UNICEF-AI-Personalisation.git
-cd UNICEF-AI-Personalisation
+git clone https://github.com/UNICEF-AFRILEARN/question_recommendation.git
+cd question_recommendation
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ## Architecture
-app.py --> templates/index.html --> recommender.py --> templates/results.html
-- app.py opens the user interface for collecting student course levels, subjects and lessons.
-- index.html is the user interface for collecting student course levels, subjects and lessons used in calling the machine learning recommender system.
-- recommender.py loads pickle files containing the recommender system apriori rules and applies this in recommending similar lessons for students based on the student course levels, subjects and lessons.
-- results.html displays the dataframe results in html.
-- To use this app as an API, a POST reuquest can be sent directly to https://unicef-afrilearn-app.herokuapp.com/recommend with a json file containing student details for the school_level, subject and lesson.
+<img alt="architecture diagram" src="https://github.com/UNICEF-AFRILEARN/.github/blob/main/architecture.png">
 
 ## Dependencies
 The backend is developed in python 3.x.x. Other libraries and packages, along with their versions, are included in [requirements.txt]('../../requirements.txt'). In short, you need the following libraries and their dependencies.
@@ -57,9 +52,10 @@ The backend is developed in python 3.x.x. Other libraries and packages, along wi
 - flask_cors
 - flask
 - mlxtend
+- Pymongo
 
 ## Usage
-<a href="https://unicef-afrilearn-app.herokuapp.com/">visit web app</a>
+<a href="https://question-reco-377d2cf63eb7.herokuapp.com/">visit web app</a>
 
 
 ## Contributors
